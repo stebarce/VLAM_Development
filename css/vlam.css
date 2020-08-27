@@ -423,9 +423,12 @@
 }
 
 .mobile-menu-list-container {
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
-  height: 80vh;
+  height: 80%;
   max-width: 470px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -491,17 +494,18 @@
 }
 
 .h6-desktop {
-  margin-top: 0px;
+  margin-top: 40px;
   margin-bottom: 24px;
   font-family: 'Futura book webfont', sans-serif;
   color: #fff;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
+  letter-spacing: -0.02em;
 }
 
 .mobile-nav-link-container {
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 5%;
 }
 
 .mobile-menu {
@@ -511,7 +515,10 @@
   right: 0%;
   bottom: auto;
   z-index: 999999;
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   overflow: visible;
   width: 100%;
   height: 100%;
@@ -1945,7 +1952,8 @@
   .hero {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    min-height: auto;
   }
   .hero-text-container {
     margin-top: 120px;
@@ -2307,7 +2315,7 @@
     padding-left: 0px;
   }
   .magnifying-glass-animation-container {
-    top: 220px;
+    top: 225px;
     z-index: 9;
     display: -webkit-box;
     display: -webkit-flex;
@@ -2660,6 +2668,7 @@
     padding-left: 16px;
   }
   .loading-animation-container {
+    display: none;
     height: 100vh;
   }
   .loading-animation-tablet {
