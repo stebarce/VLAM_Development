@@ -1846,9 +1846,6 @@
   .hero-image {
     max-width: none;
   }
-  .hero-image-container {
-    min-height: 500px;
-  }
   .container {
     padding-right: 24px;
     padding-left: 24px;
@@ -2395,18 +2392,16 @@
   }
   .hero-image {
     max-width: none;
-    min-width: 450px;
+    min-width: 520px;
   }
   .hero-image.lazyload {
     position: relative;
-    min-width: 550px;
+    min-width: 140%;
   }
   .hero-image-container {
     position: absolute;
-    width: auto;
-    height: 70vh;
-    min-height: auto;
-    min-width: auto;
+    width: 100%;
+    height: 100%;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
