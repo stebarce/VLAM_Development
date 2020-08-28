@@ -2068,7 +2068,7 @@
     text-transform: uppercase;
   }
   .video-cta {
-    display: block;
+    display: none;
   }
   .video-text {
     padding-top: 24px;
