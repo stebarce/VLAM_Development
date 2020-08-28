@@ -145,7 +145,7 @@
 }
 
 .video-cta {
-  display: none;
+  display: none !important;
   background-color: #fff;
 }
 
@@ -2068,7 +2068,7 @@
     text-transform: uppercase;
   }
   .video-cta {
-    display: none;
+    display: none !important;
   }
   .video-text {
     padding-top: 24px;
