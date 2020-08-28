@@ -145,7 +145,7 @@
 }
 
 .video-cta {
-  display: none !important;
+  display: none;
   background-color: #fff;
 }
 
@@ -515,10 +515,7 @@
   right: 0%;
   bottom: auto;
   z-index: 999999;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   overflow: visible;
   width: 100%;
   height: 100%;
@@ -1325,10 +1322,7 @@
 .loading-animation-container {
   position: fixed;
   z-index: 100000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   overflow: hidden;
   width: 100%;
   height: 100vh;
@@ -1382,7 +1376,7 @@
 }
 
 .image-4 {
-  margin-left: 60px;
+  margin-left: 0px;
 }
 
 @media screen and (max-width: 991px) {
@@ -2068,7 +2062,7 @@
     text-transform: uppercase;
   }
   .video-cta {
-    display: none !important;
+    display: none;
   }
   .video-text {
     padding-top: 24px;
@@ -2455,11 +2449,12 @@
   }
   .hero-image {
     max-width: none;
-    min-width: 520px;
+    min-width: 450px;
   }
   .hero-image.lazyload {
     position: relative;
     height: auto;
+    min-width: 520px;
   }
   .hero-image-container {
     position: absolute;
