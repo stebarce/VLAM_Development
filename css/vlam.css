@@ -2455,12 +2455,11 @@
   }
   .hero-image {
     max-width: none;
-    min-width: 450px;
+    min-width: 520px;
   }
   .hero-image.lazyload {
     position: relative;
     height: auto;
-    min-width: 520px;
   }
   .hero-image-container {
     position: absolute;
