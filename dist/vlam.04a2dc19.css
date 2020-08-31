@@ -1248,7 +1248,7 @@
   height: 100%;
   padding-top: 100%;
   background-color: #fff;
-  background-image: url('../images/Group-22x.png');
+  background-image: url('/Group-22x.84e3f051.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -2715,7 +2715,7 @@
   }
   .ig-post {
     display: block;
-    background-image: url('../images/Group-22x.png');
+    background-image: url('/Group-22x.84e3f051.png');
     background-position: 50% 50%;
     background-size: cover;
   }
@@ -3090,13 +3090,15 @@
 
 @font-face {
   font-family: 'Futurabt webfont';
-  src: url('../fonts/futurabt-bold-webfont.woff2') format('woff2'), url('../fonts/futurabt-bold-webfont.woff') format('woff');
+  src: url('/futurabt-bold-webfont.1d10fd77.woff2') format('woff2'), url('/futurabt-bold-webfont.0cf1e2cb.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Futura book webfont';
-  src: url('../fonts/futura-book-webfont.woff2') format('woff2'), url('../fonts/futura-book-webfont.woff') format('woff');
+  src: url('/futura-book-webfont.b2c1be82.woff2') format('woff2'), url('/futura-book-webfont.57fc78c5.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
+
+/*# sourceMappingURL=/vlam.04a2dc19.css.map */
