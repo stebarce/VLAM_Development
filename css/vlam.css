@@ -2475,7 +2475,7 @@
   }
   .hero-image {
     max-width: none;
-    min-width: 450px;
+    min-width: 520px;
   }
   .hero-image.lazyload {
     position: relative;
@@ -2766,7 +2766,6 @@
     padding-left: 16px;
   }
   .loading-animation-container {
-    display: none;
     height: 100vh;
   }
   .loading-animation-tablet {
