@@ -19331,6 +19331,72 @@ Webflow.require('ix2').init({
         "endOffsetValue": 50
       }],
       "createdOn": 1598798994906
+    },
+    "e-132": {
+      "id": "e-132",
+      "eventTypeId": "MOUSE_CLICK",
+      "action": {
+        "id": "",
+        "actionTypeId": "GENERAL_START_ACTION",
+        "config": {
+          "delay": 0,
+          "easing": "",
+          "duration": 0,
+          "actionListId": "a-42",
+          "affectedElements": {},
+          "playInReverse": false,
+          "autoStopEventId": "e-133"
+        }
+      },
+      "mediaQueries": ["main", "medium", "small", "tiny"],
+      "target": {
+        "appliesTo": "ELEMENT",
+        "styleBlockIds": [],
+        "id": "5f307e033b89f9abd6373e2e|d48f97ee-c89e-b03e-17ef-40ff2bda2fec"
+      },
+      "config": {
+        "loop": false,
+        "playInReverse": false,
+        "scrollOffsetValue": null,
+        "scrollOffsetUnit": null,
+        "delay": null,
+        "direction": null,
+        "effectIn": null
+      },
+      "createdOn": 1598893411572
+    },
+    "e-134": {
+      "id": "e-134",
+      "eventTypeId": "MOUSE_CLICK",
+      "action": {
+        "id": "",
+        "actionTypeId": "GENERAL_START_ACTION",
+        "config": {
+          "delay": 0,
+          "easing": "",
+          "duration": 0,
+          "actionListId": "a-43",
+          "affectedElements": {},
+          "playInReverse": false,
+          "autoStopEventId": "e-135"
+        }
+      },
+      "mediaQueries": ["main", "medium", "small", "tiny"],
+      "target": {
+        "appliesTo": "ELEMENT",
+        "styleBlockIds": [],
+        "id": "5f307e033b89f9abd6373e2e|3b1f124c-106d-e40d-e713-cb068198b6c9"
+      },
+      "config": {
+        "loop": false,
+        "playInReverse": false,
+        "scrollOffsetValue": null,
+        "scrollOffsetUnit": null,
+        "delay": null,
+        "direction": null,
+        "effectIn": null
+      },
+      "createdOn": 1598893489400
     }
   },
   "actionLists": {
@@ -19929,7 +19995,7 @@ Webflow.require('ix2').init({
             "easing": "",
             "duration": 500,
             "target": {
-              "id": "5f307e033b89f9abd6373e2e|810ae41e-cc6e-97d7-60c0-9092adcab87e"
+              "id": "5f307e033b89f9abd6373e2e|f6d95e4f-af82-cbac-31bf-9cd3a1ed88ea"
             },
             "xValue": 0.9,
             "yValue": 0.9,
@@ -19943,7 +20009,7 @@ Webflow.require('ix2').init({
             "easing": "",
             "duration": 500,
             "target": {
-              "id": "5f307e033b89f9abd6373e2e|810ae41e-cc6e-97d7-60c0-9092adcab87e"
+              "id": "5f307e033b89f9abd6373e2e|f6d95e4f-af82-cbac-31bf-9cd3a1ed88ea"
             },
             "yValue": 100,
             "xUnit": "PX",
@@ -19988,7 +20054,7 @@ Webflow.require('ix2').init({
             "easing": "",
             "duration": 500,
             "target": {
-              "id": "5f307e033b89f9abd6373e2e|810ae41e-cc6e-97d7-60c0-9092adcab87e"
+              "id": "5f307e033b89f9abd6373e2e|f6d95e4f-af82-cbac-31bf-9cd3a1ed88ea"
             },
             "value": 0,
             "unit": ""
@@ -20075,7 +20141,7 @@ Webflow.require('ix2').init({
             "easing": "outQuint",
             "duration": 1200,
             "target": {
-              "id": "5f307e033b89f9abd6373e2e|810ae41e-cc6e-97d7-60c0-9092adcab87e"
+              "id": "5f307e033b89f9abd6373e2e|f6d95e4f-af82-cbac-31bf-9cd3a1ed88ea"
             },
             "value": 1,
             "unit": ""
@@ -20088,7 +20154,7 @@ Webflow.require('ix2').init({
             "easing": "outQuint",
             "duration": 1200,
             "target": {
-              "id": "5f307e033b89f9abd6373e2e|810ae41e-cc6e-97d7-60c0-9092adcab87e"
+              "id": "5f307e033b89f9abd6373e2e|f6d95e4f-af82-cbac-31bf-9cd3a1ed88ea"
             },
             "yValue": 0,
             "xUnit": "PX",
@@ -20103,7 +20169,7 @@ Webflow.require('ix2').init({
             "easing": "outQuint",
             "duration": 1200,
             "target": {
-              "id": "5f307e033b89f9abd6373e2e|810ae41e-cc6e-97d7-60c0-9092adcab87e"
+              "id": "5f307e033b89f9abd6373e2e|f6d95e4f-af82-cbac-31bf-9cd3a1ed88ea"
             },
             "xValue": 1,
             "yValue": 1,
@@ -20283,6 +20349,65 @@ Webflow.require('ix2').init({
         }]
       }],
       "createdOn": 1597029187411
+    },
+    "a-42": {
+      "id": "a-42",
+      "title": "open-pp-modal",
+      "actionItemGroups": [{
+        "actionItems": [{
+          "id": "a-42-n",
+          "actionTypeId": "GENERAL_DISPLAY",
+          "config": {
+            "delay": 0,
+            "easing": "",
+            "duration": 0,
+            "value": "none",
+            "target": {
+              "selector": ".privacy-policy-popup",
+              "selectorGuids": ["956f68ed-ab43-48ae-c792-129c4eed68cb"]
+            }
+          }
+        }]
+      }, {
+        "actionItems": [{
+          "id": "a-42-n-2",
+          "actionTypeId": "GENERAL_DISPLAY",
+          "config": {
+            "delay": 0,
+            "easing": "",
+            "duration": 0,
+            "value": "flex",
+            "target": {
+              "selector": ".privacy-policy-popup",
+              "selectorGuids": ["956f68ed-ab43-48ae-c792-129c4eed68cb"]
+            }
+          }
+        }]
+      }],
+      "createdOn": 1598893418769,
+      "useFirstGroupAsInitialState": true
+    },
+    "a-43": {
+      "id": "a-43",
+      "title": "close-pp-modal",
+      "actionItemGroups": [{
+        "actionItems": [{
+          "id": "a-43-n-2",
+          "actionTypeId": "GENERAL_DISPLAY",
+          "config": {
+            "delay": 0,
+            "easing": "",
+            "duration": 0,
+            "value": "none",
+            "target": {
+              "selector": ".privacy-policy-popup",
+              "selectorGuids": ["956f68ed-ab43-48ae-c792-129c4eed68cb"]
+            }
+          }
+        }]
+      }],
+      "createdOn": 1598893418769,
+      "useFirstGroupAsInitialState": false
     }
   },
   "site": {
@@ -20333,7 +20458,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63249" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65186" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
