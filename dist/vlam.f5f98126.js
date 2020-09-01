@@ -19995,7 +19995,7 @@ Webflow.require('ix2').init({
             "easing": "",
             "duration": 500,
             "target": {
-              "id": "5f307e033b89f9abd6373e2e|f6d95e4f-af82-cbac-31bf-9cd3a1ed88ea"
+              "id": "5f307e033b89f9abd6373e2e|810ae41e-cc6e-97d7-60c0-9092adcab87e"
             },
             "xValue": 0.9,
             "yValue": 0.9,
@@ -20009,7 +20009,7 @@ Webflow.require('ix2').init({
             "easing": "",
             "duration": 500,
             "target": {
-              "id": "5f307e033b89f9abd6373e2e|f6d95e4f-af82-cbac-31bf-9cd3a1ed88ea"
+              "id": "5f307e033b89f9abd6373e2e|810ae41e-cc6e-97d7-60c0-9092adcab87e"
             },
             "yValue": 100,
             "xUnit": "PX",
@@ -20054,7 +20054,7 @@ Webflow.require('ix2').init({
             "easing": "",
             "duration": 500,
             "target": {
-              "id": "5f307e033b89f9abd6373e2e|f6d95e4f-af82-cbac-31bf-9cd3a1ed88ea"
+              "id": "5f307e033b89f9abd6373e2e|810ae41e-cc6e-97d7-60c0-9092adcab87e"
             },
             "value": 0,
             "unit": ""
@@ -20141,7 +20141,7 @@ Webflow.require('ix2').init({
             "easing": "outQuint",
             "duration": 1200,
             "target": {
-              "id": "5f307e033b89f9abd6373e2e|f6d95e4f-af82-cbac-31bf-9cd3a1ed88ea"
+              "id": "5f307e033b89f9abd6373e2e|810ae41e-cc6e-97d7-60c0-9092adcab87e"
             },
             "value": 1,
             "unit": ""
@@ -20154,7 +20154,7 @@ Webflow.require('ix2').init({
             "easing": "outQuint",
             "duration": 1200,
             "target": {
-              "id": "5f307e033b89f9abd6373e2e|f6d95e4f-af82-cbac-31bf-9cd3a1ed88ea"
+              "id": "5f307e033b89f9abd6373e2e|810ae41e-cc6e-97d7-60c0-9092adcab87e"
             },
             "yValue": 0,
             "xUnit": "PX",
@@ -20169,7 +20169,7 @@ Webflow.require('ix2').init({
             "easing": "outQuint",
             "duration": 1200,
             "target": {
-              "id": "5f307e033b89f9abd6373e2e|f6d95e4f-af82-cbac-31bf-9cd3a1ed88ea"
+              "id": "5f307e033b89f9abd6373e2e|810ae41e-cc6e-97d7-60c0-9092adcab87e"
             },
             "xValue": 1,
             "yValue": 1,
@@ -20458,7 +20458,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65186" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56076" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
