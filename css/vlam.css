@@ -156,7 +156,7 @@
 }
 
 .desktop-body.disclaimer {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .desktop-body.popup-modal-body {
@@ -229,16 +229,6 @@
   text-align: center;
 }
 
-.video-cta-text {
-  max-width: 880px;
-  padding-right: 16px;
-  padding-left: 16px;
-}
-
-.video-container {
-  width: 100%;
-}
-
 .scroll-button-container {
   position: absolute;
   bottom: 32px;
@@ -301,11 +291,6 @@
 
 .h4-desktop.mobile-hide {
   max-width: 400px;
-}
-
-.h4-desktop.h4-logo {
-  margin-bottom: 0px;
-  text-align: center;
 }
 
 .feature-2-text {
@@ -554,10 +539,7 @@
   right: 0%;
   bottom: auto;
   z-index: 999;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   overflow: visible;
   width: 100%;
   height: 100%;
@@ -952,6 +934,7 @@
 .sec-7-header {
   position: relative;
   display: block;
+  overflow: hidden;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -967,18 +950,6 @@
 
 .text-span-9 {
   color: #1241cf;
-}
-
-.pinky-army-animation-container {
-  position: absolute;
-  left: auto;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  z-index: 0;
-  display: block;
-  overflow: hidden;
-  width: 100%;
 }
 
 .footer {
@@ -1007,6 +978,7 @@
   top: auto;
   right: 0%;
   bottom: 0%;
+  width: auto;
   height: 95%;
   max-width: none;
   margin-right: auto;
@@ -1071,17 +1043,6 @@
   overflow: hidden;
   width: 140px;
   height: 140px;
-}
-
-.slide-1-animation {
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: auto;
-  display: none;
-  overflow: visible;
-  width: 100%;
 }
 
 .mask {
@@ -1216,6 +1177,8 @@
 
 .slide-nav {
   display: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000));
+  background-image: linear-gradient(180deg, transparent, #000);
 }
 
 .step-right-container-mobile {
@@ -1246,9 +1209,71 @@
   color: #fff;
 }
 
+.icon.arrow-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color: #fff;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  color: #1241cf;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.icon.arrow-icon:hover {
+  opacity: 0.5;
+}
+
 .icon-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px none #000;
-  color: #fff;
+  border-radius: 40px;
+  background-color: #fff;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  color: #1241cf;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.icon-2:hover {
+  opacity: 0.5;
 }
 
 .instagram-button {
@@ -1315,6 +1340,117 @@
 
 .ig-post.large-post {
   background-color: #a7a7a7;
+  background-image: url('../images/evalongoria_118648812_228629018590811_258588253040659229_n-min.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.ig-post.large-post.hide-post {
+  background-image: url('../images/desiperkins_118637767_308291373609557_1332626619550833329_n-min.jpg');
+}
+
+.ig-post.large-post.large-post-3 {
+  background-image: url('../images/jlo_118587405_2635804930012877_3901619940096860411_n-min.jpg');
+}
+
+.ig-post.hide-post {
+  background-image: none;
+}
+
+.ig-post.hide-post.ig-post-3 {
+  background-image: url('../images/alianza4progress_118712011_138950271031090_7994341146296274074_n-min.jpg');
+}
+
+.ig-post.hide-post.ig-post-4 {
+  background-image: url('../images/blushdiariess_118731148_361559068349524_5866126909495602825_n-1-min.jpg');
+}
+
+.ig-post.hide-post.ig-post-5 {
+  background-image: url('../images/sarahperezjarrett_118541997_373269444075135_496185235190362652_n-min.jpg'), url('../images/sarahperezjarrett_118541997_373269444075135_496185235190362652_n-min.jpg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, auto;
+}
+
+.ig-post.hide-post.ig-post-6 {
+  background-image: url('../images/rivtamalefest_118397969_147445790346623_4404503396076612284_n-min.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.ig-post.hide-post.ig-post-8 {
+  background-image: url('../images/mariaesalinas_118613513_175232280785666_5183316124258849223_n-1-min.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.ig-post.hide-post.ig-post-13 {
+  background-image: url('../images/goconstance_118700598_307983136966970_6031037639831312625_n-min.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.ig-post.hide-post.ig-post-15 {
+  background-image: url('../images/karlasouza_118709797_360827494943135_6731064558012760497_n-min.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.ig-post.hide-post.ig-post-17 {
+  background-image: url('../images/sunnyapples_118516630_749303559181258_2563058990290769754_n.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.ig-post.hide-post.ig-post-20 {
+  background-image: url('../images/yvettetucker13_118472512_603905883631611_6208603375049449365_n.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.ig-post.hide-post.ig-post-22 {
+  background-image: url('../images/zoesaldana_118641355_319763835911973_5156195361511268401_n.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.ig-post.ig-post-2 {
+  background-image: url('../images/adriannaqs_118406895_171611551154100_8469334524851105433_n-min.jpg');
+}
+
+.ig-post.ig-post-7 {
+  background-image: url('../images/newmominanewera_118598347_354119905598308_1377039888079546884_n-1-min.jpg');
+}
+
+.ig-post.ig-post-9 {
+  background-image: url('../images/leahqusba_118341584_690185634908827_7902057179866784035_n-min.jpg');
+}
+
+.ig-post.ig-post-10 {
+  background-image: url('../images/karla_r15_118455070_173344444257914_3556475990897338331_n-min.jpg');
+}
+
+.ig-post.ig-post-11 {
+  background-image: url('../images/jessicaalba_118688773_400020677644297_1730728587560631342_n-min.jpg');
+}
+
+.ig-post.ig-post-12 {
+  background-image: url('../images/cynthiap87_118627737_702881260301114_875983381023816885_n-min.jpg');
+}
+
+.ig-post.ig-post-14 {
+  background-image: url('../images/heidi.banegas_118397604_607606536568731_6729371195199978417_n-min.jpg');
+}
+
+.ig-post.ig-post-16 {
+  background-image: url('../images/simplynatastic_118418248_405574080408254_3102810673331648477_n.jpg');
+}
+
+.ig-post.ig-post-19 {
+  background-image: url('../images/sybilspeaks_118675722_3077578179031008_900493502573240739_n.jpg');
+}
+
+.ig-post.ig-post-21 {
+  background-image: url('../images/tacoboutjenn_118515179_414065429568357_4241236166823279223_n.jpg');
 }
 
 .sec-7-ig-gallery {
@@ -1336,23 +1472,6 @@
   background-color: #00e1c8;
 }
 
-.ngo-logo {
-  width: 100%;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #fff;
-}
-
-.logo-grid {
-  margin-top: 20px;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
-}
-
 .finger-globe {
   position: absolute;
   left: 0%;
@@ -1368,11 +1487,6 @@
   bottom: -5%;
   width: 100%;
   height: 100%;
-}
-
-.lottie-animation-2 {
-  display: none;
-  width: 100%;
 }
 
 .video {
@@ -1456,11 +1570,16 @@
   margin-left: 0px;
 }
 
-.pinky-army-lottie {
-  position: relative;
-  right: 0px;
+.pinky-army-lottie-container {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
   display: block;
-  width: 110%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 .disclaimer-text-container {
@@ -1488,20 +1607,10 @@
   cursor: pointer;
 }
 
-.div-block-2 {
-  position: fixed;
-  z-index: 100000;
-  width: 100%;
-  height: 100%;
-}
-
 .privacy-policy-popup {
   position: fixed;
   z-index: 10000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100%;
   height: 100%;
   -webkit-box-pack: center;
@@ -1518,13 +1627,6 @@
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-.div-block-3 {
-  width: 50%;
-  height: 50%;
-  padding: 20px;
-  background-color: #1241cf;
 }
 
 .popup-modal {
@@ -1625,6 +1727,35 @@
 .text-span-11 {
   font-size: 20px;
   line-height: 24px;
+}
+
+.lottie-animation-3 {
+  width: 110%;
+}
+
+.button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.button.language-button {
+  z-index: 1000;
+  display: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #1241cf;
+  box-shadow: 0 5px 6px -3px rgba(0, 0, 0, 0.2);
+  opacity: 0.5;
+  -webkit-transition: all 200ms cubic-bezier(.455, .03, .515, .955);
+  transition: all 200ms cubic-bezier(.455, .03, .515, .955);
+  font-family: 'Futurabt webfont', sans-serif;
+  font-size: 12px;
+}
+
+.button.language-button:hover {
+  background-color: #1241cf;
+  opacity: 1;
 }
 
 @media screen and (max-width: 991px) {
@@ -1746,10 +1877,7 @@
     margin-bottom: 20px;
   }
   .mobile-menu {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     background-color: #1241cf;
   }
   .sec-2-consideration {
@@ -1874,10 +2002,6 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  .pinky-army-animation-container {
-    width: auto;
-    height: 100%;
-  }
   .hero-image {
     width: 100%;
     height: auto;
@@ -1966,6 +2090,59 @@
     -ms-flex-align: center;
     align-items: center;
   }
+  .ig-post {
+    background-image: url('../images/karlasouza_118709797_360827494943135_6731064558012760497_n-min.jpg');
+  }
+  .ig-post.hide-post.ig-post-5 {
+    background-image: url('../images/goconstance_118700598_307983136966970_6031037639831312625_n-min.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .ig-post.hide-post.ig-post-6 {
+    background-image: url('../images/cynthiap87_118627737_702881260301114_875983381023816885_n-min.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .ig-post.hide-post.ig-post-8 {
+    background-image: url('../images/jessicaalba_118688773_400020677644297_1730728587560631342_n-min.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .ig-post.hide-post.ig-post-13 {
+    background-image: url('../images/milegasi_118695632_644149016229009_2381097674877607027_n-min.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .ig-post.hide-post.ig-post-15 {
+    background-image: url('../images/rivtamalefest_118397969_147445790346623_4404503396076612284_n-min.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .ig-post.hide-post.ig-post-17 {
+    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .ig-post.ig-post-7 {
+    background-image: url('../images/heidi.banegas_118397604_607606536568731_6729371195199978417_n-min.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .ig-post.ig-post-9 {
+    background-image: url('../images/karla_r15_118455070_173344444257914_3556475990897338331_n-min.jpg');
+  }
+  .ig-post.ig-post-11 {
+    background-image: url('../images/leahqusba_118341584_690185634908827_7902057179866784035_n-min.jpg');
+  }
+  .ig-post.ig-post-12 {
+    background-image: url('../images/mariaesalinas_118613513_175232280785666_5183316124258849223_n-1-min.jpg');
+  }
+  .ig-post.ig-post-14 {
+    background-image: url('../images/newmominanewera_118598347_354119905598308_1377039888079546884_n-1-min.jpg');
+  }
+  .ig-post.ig-post-16 {
+    background-image: url('../images/sarahperezjarrett_118541997_373269444075135_496185235190362652_n-min.jpg');
+  }
   .finger-globe {
     left: 0%;
     top: 5%;
@@ -1994,10 +2171,7 @@
     display: none;
   }
   .privacy-policy-popup {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
   }
 }
 
@@ -2089,10 +2263,7 @@
     padding-left: 0px;
   }
   .mobile-menu {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
   }
   .feature-2-text-container {
     display: block;
@@ -2144,6 +2315,9 @@
     margin-right: 0px;
     margin-left: 0px;
   }
+  .sec-7-header {
+    overflow: hidden;
+  }
   .hero-image {
     max-width: none;
   }
@@ -2175,7 +2349,7 @@
     padding-right: 24px;
     padding-left: 24px;
   }
-  .sec-7-ig-conatiner {
+  .sec-7-text {
     padding-right: 24px;
     padding-left: 24px;
   }
@@ -2199,11 +2373,15 @@
   .feature-1-text {
     width: 100%;
   }
-  .logo-grid {
-    padding-right: 16px;
-    padding-left: 16px;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+  .icon.arrow-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .icon-2 {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
   }
   .finger-globe {
     position: relative;
@@ -2218,18 +2396,11 @@
     width: 150%;
     height: 150%;
   }
-  .lottie-animation-2 {
-    width: 130%;
-  }
   .container-6 {
     padding-right: 24px;
     padding-left: 24px;
   }
   .loading-animation-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     width: 100%;
     height: 100vh;
   }
@@ -2240,15 +2411,12 @@
   .image-4 {
     margin-left: 0px;
   }
-  .pinky-army-lottie {
+  .pinky-army-lottie-container {
     right: auto;
     width: 140%;
   }
   .privacy-policy-popup {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     grid-auto-columns: 1fr;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -2382,9 +2550,6 @@
   .h2-desktop.h2-ig-gallery {
     font-size: 24px;
     line-height: 28px;
-  }
-  .video-container {
-    height: 440px;
   }
   .scroll-button-container {
     bottom: 50px;
@@ -2529,10 +2694,7 @@
   .mobile-menu {
     position: fixed;
     z-index: 40;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     overflow: hidden;
     height: 100%;
     background-color: #1241cf;
@@ -2725,12 +2887,6 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .pinky-army-animation-container {
-    left: auto;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-  }
   .footer {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2800,7 +2956,7 @@
     padding-right: 16px;
     padding-left: 16px;
   }
-  .sec-7-ig-conatiner {
+  .sec-7-text {
     padding-right: 16px;
     padding-left: 16px;
   }
@@ -2811,19 +2967,33 @@
     padding-bottom: 24px;
     padding-left: 16px;
   }
-  .slide-1-animation {
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: auto;
-    width: 100%;
-  }
   .slide-2-animation {
     left: 0%;
     top: 0%;
     right: 0%;
     bottom: auto;
-    width: 100%;
+    width: 542px;
+    height: 300px;
+  }
+  .slide-1-image {
+    width: 542px;
+    height: 300px;
+    max-width: none;
+  }
+  .slide-1-image.lazyload {
+    width: 542px;
+    height: 300px;
+    max-width: none;
+  }
+  .slide-2-image {
+    width: 542px;
+    height: 300px;
+    max-width: none;
+  }
+  .slide-2-image.lazyload {
+    width: 542px;
+    height: 300px;
+    max-width: none;
   }
   .slide-2-text-container {
     position: relative;
@@ -2854,7 +3024,13 @@
     top: 0%;
     right: 0%;
     bottom: auto;
-    width: 100%;
+    width: 542px;
+    height: 300px;
+  }
+  .slide-3-image {
+    width: 542px;
+    height: 300px;
+    max-width: none;
   }
   .slide-3-text-container {
     position: relative;
@@ -2891,6 +3067,13 @@
     align-items: center;
     text-align: center;
   }
+  .slide-nav {
+    top: 132px;
+    display: none;
+    overflow: visible;
+    margin-top: 180px;
+    font-size: 12px;
+  }
   .step-right-container-mobile {
     display: block;
     margin-right: 40px;
@@ -2910,15 +3093,24 @@
     text-align: center;
   }
   .icon {
-    margin-top: 100px;
+    margin-top: 160px;
     margin-left: 16px;
     font-size: 28px;
   }
+  .icon.arrow-icon {
+    width: 36px;
+    height: 36px;
+    margin-top: 140px;
+    margin-bottom: auto;
+    font-size: 20px;
+  }
   .icon-2 {
-    margin-top: 100px;
+    width: 36px;
+    height: 36px;
+    margin-top: 140px;
     margin-right: 16px;
     margin-bottom: auto;
-    font-size: 28px;
+    font-size: 20px;
   }
   .close-button {
     position: relative;
@@ -2991,10 +3183,6 @@
   .ig-post.hide-post {
     display: none;
   }
-  .logo-grid {
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-  }
   .finger-globe {
     position: relative;
     left: -15%;
@@ -3013,16 +3201,13 @@
     width: 100%;
     height: 100%;
   }
-  .lottie-animation-2 {
-    position: relative;
-    left: -40%;
-    top: 0px;
-    width: 180%;
-    height: auto;
-  }
   .video {
     width: 100%;
     height: 400px;
+  }
+  .test-animation {
+    width: 542px;
+    height: 300px;
   }
   .slide-out-text {
     overflow: hidden;
@@ -3032,10 +3217,6 @@
     padding-left: 16px;
   }
   .loading-animation-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     height: 100vh;
   }
   .loading-animation-tablet {
@@ -3044,7 +3225,10 @@
   .loading-animation-mobile {
     position: relative;
     left: -1.5%;
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     min-width: 130%;
   }
   .image-4 {
@@ -3053,18 +3237,15 @@
   .link-block-2 {
     width: 60%;
   }
-  .pinky-army-lottie {
-    position: relative;
+  .pinky-army-lottie-container {
+    position: absolute;
     left: -40%;
     top: 0px;
     width: 172%;
     height: auto;
   }
   .privacy-policy-popup {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
   }
   .popup-modal {
     margin: 12px;
@@ -3095,6 +3276,15 @@
   }
   .hero-image-box {
     height: 65%;
+  }
+  .button.language-button {
+    right: 12px;
+    bottom: 12px;
+    display: none;
+    padding-right: 16px;
+  }
+  .left-arrow {
+    position: absolute;
   }
 }
 
@@ -3398,10 +3588,12 @@
   src: url('../fonts/futurabt-bold-webfont.woff2') format('woff2'), url('../fonts/futurabt-bold-webfont.woff') format('woff');
   font-weight: 700;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Futura book webfont';
   src: url('../fonts/futura-book-webfont.woff2') format('woff2'), url('../fonts/futura-book-webfont.woff') format('woff');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
